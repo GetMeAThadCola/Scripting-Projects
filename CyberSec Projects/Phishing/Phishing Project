@@ -1,0 +1,36 @@
+Ethical Self-Phishing Experiment Using zphisher: A Security Awareness Case Study
+
+I have only done this attack to myself. This was fully for educational purposes and to see how phishing attacks work first hand.
+
+Basically I just wanted to start by seeing if I could pull my ip and this started with me going through alot of respositories on GITHUB to find the tool that works.
+
+Eventually I landed on zphisher and I used that on to attack myself.
+
+I will include some screenshots of how it works.
+
+Some skills learned in this expirement are : 
+Basic Cybersecurity Knowledge: A foundational understanding of cybersecurity concepts, including threats, vulnerabilities, and security best practices, is essential.
+
+Phishing Awareness: Familiarity with common phishing techniques and the ability to recognize phishing emails and websites is crucial.
+
+Linux/Unix Skills: Many hacking tools, including zphisher, are typically designed to run on Linux or Unix-based systems. Proficiency in these operating systems is beneficial.
+
+Networking: Understanding networking fundamentals, such as TCP/IP, DNS, and HTTP, helps in comprehending how phishing attacks work.
+
+Web Technologies: Knowledge of web technologies, including HTML, CSS, JavaScript, and web servers, can be useful for understanding how phishing pages are constructed.
+
+Scripting and Programming: Skills in scripting or programming languages like Python, Bash, or PHP can be beneficial for customizing and modifying phishing tools.
+
+Security Tools: Familiarity with various security tools, such as Wireshark (for packet analysis), Nmap (for network scanning), and Burp Suite (for web application testing), can enhance your overall cybersecurity knowledge.
+
+Ethical Hacking: An understanding of ethical hacking principles, methodologies, and frameworks like the OWASP Top Ten, can guide your experiment.
+
+Consent and Ethical Considerations: Knowledge of ethical guidelines and the importance of obtaining informed consent before conducting any security experiment.
+
+Documentation and Reporting: The ability to document your experiment thoroughly and write a clear and concise report is crucial for educational purposes and sharing your findings responsibly.
+
+Legal and Ethical Compliance: Awareness of the legal and ethical implications of hacking, phishing, and data privacy laws in your jurisdiction.
+
+Security Awareness: Being security-conscious and having the ability to think like an attacker to identify potential weaknesses and vulnerabilities.
+
+Now I used one of the server hosts that brought the website up but my browser detected it however I got the victims IP anayways now i blured out the IP as to not dox myself nut I have included screenshots of all of this 
