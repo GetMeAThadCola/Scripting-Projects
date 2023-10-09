@@ -4,11 +4,12 @@ I have only done this attack to myself. This was fully for educational purposes 
 
 Basically I just wanted to start by seeing if I could pull my ip and this started with me going through alot of respositories on GITHUB to find the tool that works.
 
-Eventually I landed on zphisher and I used that on to attack myself.
+Eventually I landed on zphisher and I used that to attack myself.
 
 I will include some screenshots of how it works.
 
-Some skills learned in this expirement are : 
+Some skills learned/used in this expirement : 
+
 Basic Cybersecurity Knowledge: A foundational understanding of cybersecurity concepts, including threats, vulnerabilities, and security best practices, is essential.
 
 Phishing Awareness: Familiarity with common phishing techniques and the ability to recognize phishing emails and websites is crucial.
