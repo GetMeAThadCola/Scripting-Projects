@@ -1,14 +1,14 @@
 Ethical Self-Phishing Experiment Using zphisher: A Security Awareness Case Study
 
-I have only done this attack to myself. This was fully for educational purposes and to see how phishing attacks work first hand.
+I have only done this attack on myself. This was fully for educational purposes and to see how phishing attacks work firsthand.
 
-Basically I just wanted to start by seeing if I could pull my ip and this started with me going through alot of respositories on GITHUB to find the tool that works.
+Basically, I just wanted to start by seeing if I could pull my ip and this started with me going through a lot of repositories on GitHub to find the tool that works.
 
-Eventually I landed on zphisher and I used that to attack myself.
+Eventually, I landed on zphisher and I used that to attack myself.
 
 I will include some screenshots of how it works.
 
-Some skills learned/used in this expirement : 
+Some skills learned/used in this experiment: 
 
 Basic Cybersecurity Knowledge: A foundational understanding of cybersecurity concepts, including threats, vulnerabilities, and security best practices, is essential.
 
@@ -28,10 +28,10 @@ Ethical Hacking: An understanding of ethical hacking principles, methodologies, 
 
 Consent and Ethical Considerations: Knowledge of ethical guidelines and the importance of obtaining informed consent before conducting any security experiment.
 
-Documentation and Reporting: The ability to document your experiment thoroughly and write a clear and concise report is crucial for educational purposes and sharing your findings responsibly.
+Documentation and Reporting: The ability to document your experiment thoroughly and write a clear and concise report is crucial for educational purposes and for sharing your findings responsibly.
 
 Legal and Ethical Compliance: Awareness of the legal and ethical implications of hacking, phishing, and data privacy laws in your jurisdiction.
 
-Security Awareness: Being security-conscious and having the ability to think like an attacker to identify potential weaknesses and vulnerabilities.
+Security Awareness: Being security-conscious and thinking like an attacker to identify potential weaknesses and vulnerabilities.
 
-I attempted to use localxpose server for my first attempt but googlechrome detected that it may be dangerous so it had the site listed as forbidden but I got the victims IP anyways now i blured out the IP as to not dox myself nut I have included screenshots of all of this.
+I attempted to use a localxpose server for my first attempt but Google detected that it may be dangerous so it had the site listed as forbidden I got the victim's IP anyways now I blurred out the IP as not to dox myself nut I have included screenshots of all of this.
