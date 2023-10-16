@@ -1,0 +1,5 @@
+In this screenshot we can see that our "hook" page has now changed to look like a google login  page.
+
+In this page the vitcim may attempt to login.
+
+If this is done there credentials will become the attackers as it will popualte on the beef control screen.

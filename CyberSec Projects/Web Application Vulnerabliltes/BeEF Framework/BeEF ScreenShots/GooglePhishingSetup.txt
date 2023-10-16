@@ -1,0 +1,3 @@
+In this screenshot you can see how we setup our Google Phishing Page on our victim.
+
+We scroll down on Social Enginerring tools till we see Google Phishing once selected hit Execute.

@@ -1,0 +1,7 @@
+The BeEF (Browser Exploitation Framework) hook page is a web page hosted by the BeEF server that, when loaded in a target's browser, establishes a connection between the browser and the attacker's server.
+
+This connection allows the attacker to remotely control and manipulate the target's browser, potentially carrying out various browser-based attacks. 
+
+BeEF is used for ethical security testing and penetration testing to identify and mitigate browser vulnerabilities. 
+
+As you can see this is the default hook page for beEF and you will see how we can see if you succesfully "hooked" a victim.

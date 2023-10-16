@@ -1,0 +1,5 @@
+In this screenshot you can see there is a new IP under the Online Host tab.
+
+This means that we have succesfully "hooked" our victim in this case I did it to myself.
+
+We will now look at some social engineering tools to get google credentials.
