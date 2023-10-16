@@ -1,5 +1,5 @@
-Seen in the second screenshot we have implement a command injection into this web application.
+As seen in the second screenshot we have implemented a command injection into this web application.
 
-We got have gotten the web application to give us back the current working directory.
+We have gotten the web application to populate the current working directory.
 
-Now this is a good start but what else can we do with command injection.
+Now this is a good start but what else can we do with command injection?
