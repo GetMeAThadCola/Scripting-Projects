@@ -1,5 +1,5 @@
-In the first picture I show how the web application is suppose to be used.
+In the first picture, I show how the web application is supposed to be used.
 
 As you can see this application will ping an IP address for you when you type it in.
 
-But what other commands can we get this to execute. 
+But what other commands can we get this to execute? 
