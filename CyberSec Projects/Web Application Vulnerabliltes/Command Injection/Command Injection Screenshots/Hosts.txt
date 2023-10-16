@@ -1,3 +1,3 @@
-How about we read the host file on this application.
+How about we read the host file on this application?
 
 I have even shown the payload/command I have used to obtain this information.
