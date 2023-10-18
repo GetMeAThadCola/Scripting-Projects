@@ -1,0 +1,7 @@
+For this one I attempted to make a pop up display hello (name).
+
+Now since we know we can add HTML text formatting can we add a simple script.
+
+I entered <script>alert("Hi Hunter")</script> and this was a success as you can see in the screenshot.
+
+The next step was to try to make it display our sessions cookies in the pop up.

@@ -1,0 +1,5 @@
+For this one I attempted to make my name appear in bold letters.
+
+I was able to achieve this by adding the HTML text formatting for bold letters around my name.
+
+Now we know that this web application is vulnerable to this attack and we will now attempt to get a pop up.

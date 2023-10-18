@@ -1,0 +1,5 @@
+For the last step we would like teh pop-up to display the cookies.
+
+We barley have to change the payload that was used before.
+
+As after some reasearch I found out that if we replace Hello Hunter with document.cookie that the pop up would display the cookie.

@@ -1,0 +1,5 @@
+This screenshot shows off the the functionality of this web app.
+
+As you can see you enter a name and the website will read back Hello (Your Name)
+
+Now we will look at the code of this web app to see if this attack will work here.

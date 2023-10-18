@@ -1,0 +1,5 @@
+I right-clicked to view the page's source code.
+
+I then used the find function to look at the name I have inputted.
+
+We see there are no security around the text so next we will test if we can add something simple.
