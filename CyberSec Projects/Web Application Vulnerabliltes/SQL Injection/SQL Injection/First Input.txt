@@ -1,0 +1,7 @@
+In this first screenshot you can see I have inputted 1 for the User ID.
+
+This has supplied use with a user with the first name admin and last name of admin.
+
+Now this is how this web app is suppose to work. 
+
+But what if we try breaking out of the code with a ' and then add a true statement ?

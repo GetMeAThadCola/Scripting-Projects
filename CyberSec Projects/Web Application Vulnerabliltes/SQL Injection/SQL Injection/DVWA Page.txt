@@ -1,0 +1,3 @@
+This screenshot is the page of the Damn Vulnerable Web App in which we can practice SQL Injections.
+
+All of these projects are done with complete permission and are done for educational purposes.

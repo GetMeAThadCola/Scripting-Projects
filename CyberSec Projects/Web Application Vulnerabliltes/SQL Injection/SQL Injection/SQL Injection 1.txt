@@ -1,0 +1,17 @@
+This is our first SQL Injection tried on this web app.
+
+We have inputted a normal answer followed by ' to break out.
+
+Then we add the common always true query of OR 1 = 1.
+
+This will cause the database to return all of the values in the table.
+
+Note 1 = 1 is the most common true statement but you can use alsmost anything as long as they are equal.
+
+Examples : 
+dog = dog 
+cat = cat
+cyber = cyber 
+2 = 2
+
+	

@@ -1,0 +1,9 @@
+Now we will try to pull passwords from the SQL database as well.
+
+We can do this by using the UNION command.
+
+We will create an injection such as : 
+
+1' UNION select first_name, password from users where '1' = '1 
+
+Now as you can see when I inputted that into the bar we recieved a first name and a password for all the users

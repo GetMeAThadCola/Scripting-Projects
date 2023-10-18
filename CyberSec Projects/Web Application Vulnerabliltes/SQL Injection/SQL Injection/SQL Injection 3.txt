@@ -1,0 +1,11 @@
+Now this was a bonus question for my homework but I decided to keep this in.
+
+If you need to go a step further you can use the CONCAT command to to combine two of fields to search into one field. 
+
+An attacker might do this to get around the fact that the amount of fields requested has to match the amount from the orginal request.
+
+The SQL Injection I then crafted for this probelm was :
+
+1' UNION select CONCAT(first_name,last_name), password from users where '1' = '1
+
+After putting this in I got this screenshot.
