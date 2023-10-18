@@ -16,8 +16,6 @@ Network Security Groups (NSG): You learned how to define and apply security rule
 
 Azure Firewall Configuration: You gained experience in setting up and configuring Azure Firewall to provide advanced security measures like deep packet inspection and threat protection.
 
-Virtual Private Network (VPN) Configuration: You learned how to establish secure connections between on-premises networks and Azure through the use of VPN gateways.
-
 Security Monitoring and Logging: You became proficient in using Azure's monitoring and logging tools, such as Azure Security Center, Azure Monitor, and Azure Log Analytics to track and analyze network activities.
 
 Security Policy Definition: You developed the ability to define custom security policies to meet specific security requirements and compliance standards.
