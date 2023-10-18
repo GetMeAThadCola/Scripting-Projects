@@ -1,0 +1,5 @@
+For this section we use test as username and password as well as enable Foxy Proxy to send our browser traffic to burp suite 
+
+We also enable Incercept on in the Proxy section of BurpSuite to get the packet.
+
+Once we have the packet we sent it to intruder in BurpSuite and then you can forward the packet in Proxy so that the page will go through.

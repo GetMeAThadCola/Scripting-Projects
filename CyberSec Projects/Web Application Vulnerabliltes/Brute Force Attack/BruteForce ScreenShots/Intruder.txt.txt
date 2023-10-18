@@ -1,0 +1,5 @@
+In this screenshot we can see what we are selecting as payload positions. Using the special character that BurpSuite uses.
+
+We have the payload positions as the username and password.
+
+Note we are not using Sniper as that would be only one Payload list. We instead use Cluster Bomb.

@@ -1,0 +1,5 @@
+In the results of the Brute Force attack we filter by the length of the respsonse as a succesful login would typically have a longer response or a different response length than fails.
+
+We see that username tonystark and password I am Iron Man are good credentials and tonystark has not updated his password since the data leak.
+
+In the response tab we can even see the page render of a sucessful login as well as in HTML code we can view in the Pretty tab. I personally like using render although as it allows us to see a easy to read webpage.

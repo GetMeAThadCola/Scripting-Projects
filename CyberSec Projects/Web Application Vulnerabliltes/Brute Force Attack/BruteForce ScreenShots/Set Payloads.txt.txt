@@ -1,0 +1,7 @@
+In this screenshot we can see that we are setting the payload lists that BurpSuite will use in this Brute Force attack.
+
+Note: Part of the assignement in the Bootcamp has supplied us with possible usernames and passwords to use.
+
+The scenario we were given was that this fake company was the victim of a data breach and this information came from that.
+
+In a real scenario you might use OSINT to figure out some usernames and possible passwords you can also use a wordlist with common usernames and passwords.

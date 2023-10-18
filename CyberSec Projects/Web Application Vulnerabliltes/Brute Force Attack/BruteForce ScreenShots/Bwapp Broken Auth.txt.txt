@@ -1,0 +1,7 @@
+This project was part of my 24-Week Cybersecuirty Bootcamp through ASU
+
+Here we are using Burp Suite to Brute Force Attack a login page.
+
+The login page is hosted locally and provided by the bootcamp.
+
+All of this has been done ethically.
