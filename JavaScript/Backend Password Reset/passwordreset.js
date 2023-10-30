@@ -3,7 +3,7 @@ const nodemailer = require('nodemailer');
 let transporter = nodemailer.createTransport({
     service: 'Gmail',
     auth: {
-        user: 'example@example.com', // Use the email you want to send from here
+        user: 'carbonehunter1@gmail.com',
         pass: 'Your_App_Password', // Use an app password generated in your Gmail settings
     },
 });
@@ -13,10 +13,10 @@ function sendResetLink(email) {
     const resetToken = Math.random().toString(36).substring(2, 10);
 
     let mailOptions = {
-        from: 'example', // Replace with your email address for example
+        from: 'carbonehunter1@gmail.com',
         to: email,
         subject: 'Password Reset Link',
-        text: `Your password reset link: https://yourwebsite.com/reset?token=${resetToken}`, // Change to your website
+        text: `Your password reset link: https://yourwebsite.com/reset?token=${resetToken}`,
     };
 
     transporter.sendMail(mailOptions, (error, info) => {
