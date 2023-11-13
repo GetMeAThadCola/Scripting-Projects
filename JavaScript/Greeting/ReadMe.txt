@@ -1,0 +1,2 @@
+The JavaScript code embedded in this HTML file, named index.html, prompts the user for their name using the prompt function. Upon entering a name, the code displays a personalized greeting using the alert function. If the user doesn't provide a name, a generic greeting is presented. This simple script is designed to be placed within an HTML file and executed in a web browser, providing an interactive welcome experience for visitors to the webpage.
+
