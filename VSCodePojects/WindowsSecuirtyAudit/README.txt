@@ -1,4 +1,4 @@
-Windows Security Audit Script
+# Windows Security Audit Script
 
 Description:
 This Python script is designed to perform a basic security audit on Windows machines, checking for essential security configurations and providing recommendations for better system security. The script employs system-level checks using the psutil library and command-line queries to verify the status of critical security features.
