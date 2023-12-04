@@ -1,5 +1,5 @@
 # **Script Usage Guide**
-Overview
+**Overview**
 This Python script is designed to access your Gmail account using IMAP and delete unread, unstarred emails from your inbox. Before using the script, ensure you've set up a Google App Password as the script requires it for authentication.
 
 Setting up Google App Password
