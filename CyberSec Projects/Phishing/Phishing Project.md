@@ -6,9 +6,9 @@
 
 *Eventually, I landed on zphisher and I used that to attack myself.*
 
-###I will include some screenshots of how it works.
+### I will include some screenshots of how it works.
 
-###Some skills learned/used in this experiment: 
+### Some skills learned/used in this experiment: 
 
 1. Basic Cybersecurity Knowledge: A foundational understanding of cybersecurity concepts, including threats, vulnerabilities, and security best practices, is essential.
 
