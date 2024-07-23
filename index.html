@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dustin Job Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Dustin Job Tracker</h1>
+        <div class="status">
+            <p>Does Dustin have a job? <span id="job-status">No</span></p>
+            <p>Duration: <span id="job-duration">0</span> days</p>
+        </div>
+        <div class="login-form">
+            <h2>Admin Login</h2>
+            <form id="login-form">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+        <div class="admin-panel" id="admin-panel" style="display: none;">
+            <h2>Admin Panel</h2>
+            <form id="update-form">
+                <label for="job-status-select">Job Status:</label>
+                <select id="job-status-select">
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                </select>
+                <label for="job-duration-input">Duration (days):</label>
+                <input type="number" id="job-duration-input" min="0" required>
+                <button type="submit">Update</button>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
