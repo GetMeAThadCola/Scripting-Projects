@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Book Haven Bookstore</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f9;
+      color: #333;
+    }
+    header {
+      background-color: #5d5d5d;
+      padding: 20px;
+      color: white;
+      text-align: center;
+    }
+    footer {
+      background-color: #5d5d5d;
+      padding: 10px;
+      color: white;
+      text-align: center;
+    }
+    form {
+      margin: 20px;
+      padding: 20px;
+      background-color: #ffffff;
+      border-radius: 5px;
+    }
+    label {
+      display: block;
+      margin-bottom: 8px;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      padding: 10px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #45a049;
+    }
+    .btn {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+      margin: 10px;
+      border-radius: 5px;
+    }
+    .btn:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Contact Book Haven Bookstore</h1>
+  </header>
+
+  <section>
+    <h2>We Value Your Feedback</h2>
+    <form action="/submit-form" method="POST">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <!-- Navigation Buttons -->
+  <a href="index.html" class="btn">Go to Homepage</a>
+  <a href="gallery.html" class="btn">View Gallery</a>
+  <a href="testimonials.html" class="btn">Customer Testimonials</a>
+
+  <footer>
+    <p>Book Haven Bookstore | All rights reserved.</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery - Book Haven Bookstore</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f9;
+      color: #333;
+    }
+    header {
+      background-color: #5d5d5d;
+      padding: 20px;
+      color: white;
+      text-align: center;
+    }
+    footer {
+      background-color: #5d5d5d;
+      padding: 10px;
+      color: white;
+      text-align: center;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      padding: 20px;
+    }
+    .product img {
+      width: 100%;
+      height: auto;
+    }
+    button {
+      padding: 10px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #45a049;
+    }
+    .btn {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+      margin: 10px;
+      border-radius: 5px;
+    }
+    .btn:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Book Haven Bookstore Gallery</h1>
+  </header>
+
+  <section class="gallery">
+    <div class="product">
+      <img src="book1.png" alt="Book 1">
+      <button>Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="book2.png" alt="Book 2">
+      <button>Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="book3.png" alt="Book 3">
+      <button>Add to Cart</button>
+    </div>
+    <!-- Add more product blocks as necessary -->
+  </section>
+
+  <!-- Navigation Buttons -->
+  <a href="index.html" class="btn">Go to Homepage</a>
+  <a href="about-contact.html" class="btn">Contact Us</a>
+  <a href="testimonials.html" class="btn">Customer Testimonials</a>
+
+  <footer>
+    <p>All rights reserved | Book Haven Bookstore</p>
+  </footer>
+</body>
+</html>
