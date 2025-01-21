@@ -51,7 +51,7 @@ section ul {
   padding: 0;
   text-align: center; /* Center the list items */
   font-size: 18px;
-  color: #2E4057; /* Dark blue for visibility */
+  color: #e3e5e9; /* Dark blue for visibility */
   margin: 0 auto; /* Centers the list */
   max-width: 500px; /* Optional: limits the width of the list */
 }
