@@ -38,7 +38,7 @@ section {
   padding: 20px;
 }
 
-/* Center the Hours of Operation List */
+/* Styling for the Hours of Operation */
 section h3 {
   font-family: 'Arial', sans-serif;
   font-size: 25px;
@@ -59,6 +59,7 @@ section ul {
 section ul li {
   margin-bottom: 8px; /* Space between the hours */
 }
+
 
 
 /* Button Styling */
