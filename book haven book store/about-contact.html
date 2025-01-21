@@ -3,17 +3,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact Us - Book Haven Bookstore</title>
-  <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file -->
+  <title>Contact Us | Book Haven Bookstore</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header>
-    <h1>Contact Book Haven Bookstore</h1>
+    <img src="bookhaven-logo.png" alt="Book Haven Logo" />
+    <h1>Book Haven Bookstore</h1>
   </header>
 
+  <!-- About Us Section -->
+  <section class="about-us">
+    <h2>About Us</h2>
+    <p>At **Book Haven**, we believe in the power of books to transform lives. We offer a wide range of literature, from bestsellers to hidden gems, catering to readers of all tastes. Our mission is to create a welcoming space for all book lovers, from casual readers to avid collectors.</p>
+    <p>Our team is passionate about books and strives to provide excellent customer service. Whether you're looking for your next read, need book recommendations, or just want to discuss the latest literary trends, Book Haven is the place to be!</p>
+  </section>
+
+  <!-- Contact Form Section -->
   <section>
     <h2>We Value Your Feedback</h2>
-    <form action="/submit-form" method="POST">
+    <form id="contactForm" action="#">
       <label for="name">Name:</label>
       <input type="text" id="name" name="name" required>
 
@@ -27,13 +36,12 @@
     </form>
   </section>
 
-  <!-- Navigation Buttons -->
-  <a href="index.html" class="btn">Go to Homepage</a>
-  <a href="gallery.html" class="btn">View Gallery</a>
-  <a href="testimonials.html" class="btn">Customer Testimonials</a>
-
-  <footer>
-    <p>Book Haven Bookstore | All rights reserved.</p>
-  </footer>
+  <script>
+    // Web form submit event
+    document.getElementById("contactForm").addEventListener("submit", function(event) {
+      event.preventDefault(); // Prevent form submission
+      alert("Thank you for your message");
+    });
+  </script>
 </body>
 </html>

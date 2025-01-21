@@ -4,122 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Book Haven Bookstore</title>
-  <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file -->
-  <style>
-    /* Global Styles */
-    body {
-      font-family: 'Arial', sans-serif;
-      background-color: #FFF7EE; /* Light cream */
-      color: #C1CFD6; /* Greyish for text */
-      margin: 0;
-      padding: 0;
-    }
-
-    /* Header Styling */
-    header {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background-color: #2E4057; /* Dark blue */
-      padding: 20px;
-      color: white;
-    }
-
-    header h1 {
-      font-family: 'Georgia', serif;
-      font-size: 36px;
-      margin-left: 20px;
-      color: white;
-    }
-
-    header img {
-      width: 120px; /* Smaller logo */
-      height: auto;
-      margin-right: 20px;
-    }
-
-    /* Main Section */
-    section {
-      text-align: center;
-      margin-top: 50px;
-      padding: 20px;
-    }
-
-    section h2 {
-      font-family: 'Arial', sans-serif;
-      font-size: 25px;
-      font-weight: bold;
-      color: #EE583F; /* Bright orange */
-    }
-
-    section p {
-      font-family: 'Comic Sans MS', cursive, sans-serif;
-      font-size: 20px;
-      line-height: 1.6;
-      color: #2E4057; /* Dark blue */
-      margin: 10px auto;
-      width: 80%;
-    }
-
-    section ul {
-      list-style-type: none;
-      padding: 0;
-      text-align: center; /* Center the list items */
-      font-size: 18px;
-      color: #2E4057; /* Dark blue for visibility */
-    }
-
-    section ul li {
-      margin-bottom: 8px;
-    }
-
-    /* Button Styles */
-    .btn {
-      background-color: #EE583F; /* Button color: Bright orange */
-      color: white;
-      padding: 10px 20px;
-      text-align: center;
-      text-decoration: none;
-      font-size: 16px;
-      border: none;
-      border-radius: 5px;
-      margin: 20px;
-      display: inline-block;
-    }
-
-    .btn:hover {
-      background-color: #C7865E; /* Button hover: Dark orange */
-    }
-
-    /* Footer Styling */
-    footer {
-      background-color: #2E4057; /* Footer background: Dark blue */
-      padding: 15px;
-      color: white;
-      text-align: center;
-    }
-
-    /* Responsive Design */
-    @media (max-width: 768px) {
-      header {
-        flex-direction: column;
-        text-align: center;
-      }
-
-      header img {
-        width: 100px; /* Smaller logo for mobile */
-      }
-
-      header h1 {
-        margin-left: 0;
-        margin-top: 10px;
-      }
-
-      section p {
-        font-size: 18px;
-      }
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header>
@@ -129,7 +14,7 @@
 
   <section>
     <h2>Welcome to Book Haven!</h2>
-    <p>Book Haven Bookstore is a local treasure for book enthusiasts, offering a diverse selection of books, magazines, journals, and office supplies. We are committed to fostering literary exploration and a love for reading.</p>
+    <p>Book Haven Bookstore is a local treasure for book enthusiasts, offering a diverse selection of books, magazines, journals, and office supplies.</p>
     <p>Our mission is to amplify our visibility and cultivate a vibrant literary community while simplifying the process of book inquiries and purchases.</p>
 
     <h3><strong>Hours of Operation:</strong></h3>
@@ -145,8 +30,17 @@
     <a href="testimonials.html" class="btn">Customer Testimonials</a>
   </section>
 
+  <!-- Footer Section -->
   <footer>
     <p>All rights reserved | Book Haven Bookstore</p>
+    <button id="subscribeBtn">Subscribe</button> <!-- Subscribe Button -->
   </footer>
+
+  <script>
+    // JavaScript for Subscribe Feature
+    document.getElementById("subscribeBtn").addEventListener("click", function() {
+      alert("Thank you for subscribing");
+    });
+  </script>
 </body>
 </html>

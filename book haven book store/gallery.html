@@ -3,37 +3,63 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gallery - Book Haven Bookstore</title>
-  <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file -->
+  <title>Gallery | Book Haven Bookstore</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header>
-    <h1>Book Haven Bookstore Gallery</h1>
+    <img src="bookhaven-logo.png" alt="Book Haven Logo" />
+    <h1>Book Haven Bookstore</h1>
   </header>
 
   <section class="gallery">
     <div class="product">
-      <img src="book1.png" alt="Book 1">
-      <button>Add to Cart</button>
+      <img src="book1.jpg" alt="Book 1">
+      <button class="addToCartBtn">Add to Cart</button>
     </div>
     <div class="product">
-      <img src="book2.png" alt="Book 2">
-      <button>Add to Cart</button>
+      <img src="book2.jpg" alt="Book 2">
+      <button class="addToCartBtn">Add to Cart</button>
     </div>
     <div class="product">
-      <img src="book3.png" alt="Book 3">
-      <button>Add to Cart</button>
+      <img src="book3.jpg" alt="Book 3">
+      <button class="addToCartBtn">Add to Cart</button>
     </div>
-    <!-- Repeat the product blocks for more images -->
   </section>
 
-  <!-- Navigation Buttons -->
-  <a href="index.html" class="btn">Go to Homepage</a>
-  <a href="about-contact.html" class="btn">Contact Us</a>
-  <a href="testimonials.html" class="btn">Customer Testimonials</a>
+  <button id="clearCartBtn">Clear Cart</button>
+  <button id="processOrderBtn">Process Order</button>
 
-  <footer>
-    <p>All rights reserved | Book Haven Bookstore</p>
-  </footer>
+  <script>
+    // Cart Array to hold items added to the cart
+    let cart = [];
+
+    // Function to handle adding items to the cart
+    document.querySelectorAll('.addToCartBtn').forEach(function(button) {
+      button.addEventListener("click", function() {
+        cart.push("Item"); // Example: push the item to the cart
+        alert("Item added to the cart");
+      });
+    });
+
+    // Clear Cart Button
+    document.getElementById("clearCartBtn").addEventListener("click", function() {
+      if (cart.length > 0) {
+        cart = []; // Empty the cart
+        alert("Cart cleared");
+      } else {
+        alert("No items to clear");
+      }
+    });
+
+    // Process Order Button
+    document.getElementById("processOrderBtn").addEventListener("click", function() {
+      if (cart.length > 0) {
+        alert("Thank you for your order");
+      } else {
+        alert("Cart is empty");
+      }
+    });
+  </script>
 </body>
 </html>
