@@ -38,32 +38,28 @@ section {
   padding: 20px;
 }
 
-section h2 {
-  font-family: 'Arial', sans-serif;  /* Subtitle font */
+/* Center the Hours of Operation List */
+section h3 {
+  font-family: 'Arial', sans-serif;
   font-size: 25px;
   font-weight: bold;
-  color: #EE583F;  /* Subtitle color: Bright orange */
-}
-
-section p {
-  font-family: 'Comic Sans MS', cursive, sans-serif;  /* Body large font */
-  font-size: 20px;
-  line-height: 1.6;
-  color: #2E4057;  /* Body text color: Dark blue */
-  margin: 10px auto;
-  width: 80%;
+  color: #EE583F; /* Bright orange for emphasis */
 }
 
 section ul {
   list-style-type: none;
   padding: 0;
-  text-align: left;
+  text-align: center; /* Center the list items */
   font-size: 18px;
+  color: #2E4057; /* Dark blue for visibility */
+  margin: 0 auto; /* Centers the list */
+  max-width: 500px; /* Optional: limits the width of the list */
 }
 
 section ul li {
-  margin-bottom: 8px;
+  margin-bottom: 8px; /* Space between the hours */
 }
+
 
 /* Button Styling */
 .btn {
