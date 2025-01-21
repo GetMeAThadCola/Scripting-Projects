@@ -1,43 +1,77 @@
 /* Global Styling */
 body {
   font-family: 'Arial', sans-serif;  /* Default body font */
-  background-color: #FFF7EE;  /* Color Palette Background */
-  color: #C1CFD6;  /* Font Color */
+  background-color: #2E4057;  /* Background color: Light cream */
+  color: #C1CFD6;  /* Font Color: Greyish for main text (from color palette) */
   margin: 0;
   padding: 0;
 }
 
 /* Header Styling */
 header {
-  background-color: #2E4057;  /* Color Palette - Dark Blue */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2E4057;  /* Header background: Dark blue */
   padding: 20px;
-  color: white;
-  text-align: center;
+  color: #FFF7EE;
 }
 
-/* Typography - Title */
-h1 {
-  font-family: 'Georgia', serif; /* Title Large */
+header h1 {
+  font-family: 'Georgia', serif;  /* Main title font */
   font-size: 30px;
   font-weight: bold;
-  color: white;
+  margin-left: 20px;
+  color: #FFF7EE;  /* Title color: white for contrast */
 }
 
-h2 {
-  font-family: 'Arial', sans-serif; /* Subtitle */
-  font-size: 15px;
+header img {
+  width: 120px;  /* Make the logo smaller */
+  height: auto;
+  margin-right: 20px;
+}
+
+/* Main Section */
+section {
+  text-align: center;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+section h2 {
+  font-family: 'Arial', sans-serif;  /* Subtitle font */
+  font-size: 25px;
   font-weight: bold;
-  color: #EE583F; /* Color from the palette */
+  color: #EE583F;  /* Subtitle color: Bright orange */
+}
+
+section p {
+  font-family: 'Comic Sans MS', cursive, sans-serif;  /* Body large font */
+  font-size: 20px;
+  line-height: 1.6;
+  color: #2E4057;  /* Body text color: Dark blue */
+  margin: 10px auto;
+  width: 80%;
+}
+
+section ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: left;
+  font-size: 18px;
+}
+
+section ul li {
+  margin-bottom: 8px;
 }
 
 /* Button Styling */
 .btn {
-  background-color: #EE583F;  /* Color Palette - Bright Orange */
-  color: white;
+  background-color: #EE583F;  /* Button background: Bright orange */
+  color: #FFF7EE;
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
   font-size: 16px;
   border: none;
   cursor: pointer;
@@ -46,55 +80,20 @@ h2 {
 }
 
 .btn:hover {
-  background-color: #C7865E; /* Darker Orange from Palette */
-}
-
-/* Typography - Body Text */
-p {
-  font-family: 'Comic Sans MS', cursive, sans-serif;  /* Body large */
-  font-size: 20px;
-  line-height: 1.5;
-  color: #2E4057; /* Dark blue color for body */
-}
-
-strong {
-  font-family: 'Arial', sans-serif;  /* Body Strong */
-  font-size: 16px;
-  font-weight: bold;
-  color: #2E4057;
-}
-
-/* Captions */
-caption {
-  font-family: 'Calibri', sans-serif; /* Captions */
-  font-size: 11px;
-  color: #2E4057;
+  background-color: #C7865E;  /* Button hover: Dark orange */
 }
 
 /* Footer Styling */
 footer {
-  background-color: #2E4057;  /* Color Palette - Dark Blue */
-  padding: 10px;
-  color: white;
+  background-color: #2E4057;  /* Footer background: Dark blue */
+  padding: 15px;
+  color: 2E4057;
   text-align: center;
-}
-
-/* Gallery Page Styling */
-.gallery {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-  padding: 20px;
-}
-
-.product img {
-  width: 100%;
-  height: auto;
 }
 
 /* Form and Input Styling */
 form {
-  background-color: white;
+  background-color: 2E4057;
   padding: 20px;
   border-radius: 8px;
 }
@@ -113,7 +112,7 @@ input, textarea {
 }
 
 button[type="submit"] {
-  background-color: #4CAF50;
+  background-color: #4CA50;
   color: white;
   padding: 10px 20px;
   border: none;
@@ -127,7 +126,7 @@ button[type="submit"] {
 }
 
 .testimonial {
-  background-color: #ffffff;
+  background-color: #FFF7EE;
   padding: 15px;
   border-radius: 5px;
   margin-bottom: 10px;
