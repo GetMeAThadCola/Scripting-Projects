@@ -5,17 +5,137 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Book Haven Bookstore</title>
   <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file -->
+  <style>
+    /* Global Styles */
+    body {
+      font-family: 'Arial', sans-serif; 
+      background-color: #FFF7EE; 
+      color: #C1CFD6; 
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Header */
+    header {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #2E4057;
+      padding: 20px;
+      color: white;
+    }
+
+    header h1 {
+      font-family: 'Georgia', serif;
+      font-size: 36px;
+      margin-left: 20px;
+    }
+
+    header img {
+      width: 150px;  /* Make the logo smaller */
+      height: auto;
+      margin-right: 20px;
+    }
+
+    /* Main Section */
+    section {
+      text-align: center;
+      margin-top: 50px;
+      padding: 20px;
+    }
+
+    section h2 {
+      font-family: 'Arial', sans-serif; 
+      font-size: 25px;
+      font-weight: bold;
+      color: #EE583F; 
+    }
+
+    section p {
+      font-family: 'Comic Sans MS', cursive, sans-serif; 
+      font-size: 20px;
+      line-height: 1.6;
+      color: #2E4057;
+      margin: 10px auto;
+      width: 80%;
+    }
+
+    section ul {
+      list-style-type: none;
+      padding: 0;
+      text-align: left;
+      font-size: 18px;
+    }
+
+    section ul li {
+      margin-bottom: 8px;
+    }
+
+    /* Button Styles */
+    .btn {
+      background-color: #EE583F;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      margin: 20px;
+      display: inline-block;
+    }
+
+    .btn:hover {
+      background-color: #C7865E;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #2E4057;
+      padding: 15px;
+      color: white;
+      text-align: center;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      header img {
+        width: 100px;  /* Smaller logo for mobile */
+      }
+
+      header h1 {
+        margin-left: 0;
+        margin-top: 10px;
+      }
+
+      section p {
+        font-size: 18px;
+      }
+    }
+  </style>
 </head>
 <body>
   <header>
-    <h1>Book Haven Bookstore</h1>
     <img src="bookhaven-logo.png" alt="Book Haven Logo" />
+    <h1>Book Haven Bookstore</h1>
   </header>
 
   <section>
     <h2>Welcome to Book Haven!</h2>
-    <p>Book Haven Bookstore is a local treasure for book enthusiasts, offering a diverse selection of books, magazines, journals, and office supplies.</p>
-    <p>We are committed to fostering literary exploration and a love for reading.</p>
+    <p>Book Haven Bookstore is a local treasure for book enthusiasts, offering a diverse selection of books, magazines, journals, and office supplies. We are committed to fostering literary exploration and a love for reading.</p>
+    <p>Our mission is to amplify our visibility and cultivate a vibrant literary community while simplifying the process of book inquiries and purchases.</p>
+
+    <h3><strong>Hours of Operation:</strong></h3>
+    <ul>
+      <li>Monday–Friday: 9 a.m. to 8 p.m.</li>
+      <li>Saturday: 10 a.m. to 6 p.m.</li>
+      <li>Sunday: 11 a.m. to 5 p.m.</li>
+    </ul>
 
     <!-- Navigation Buttons -->
     <a href="gallery.html" class="btn">Go to Gallery</a>
