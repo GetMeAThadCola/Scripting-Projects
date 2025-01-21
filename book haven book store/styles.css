@@ -1,110 +1,134 @@
 /* Global Styling */
 body {
-    font-family: 'Helvetica Neue', sans-serif;  /* Typography Option 3 */
-    background-color: #F2F2F2;  /* Color Palette 1 Background */
-    color: #333333;  /* Font Color 3 - Grey */
-    margin: 0;
-    padding: 0;
-  }
-  
-  /* Header Styling */
-  header {
-    background-color: #003366;  /* Color Palette 1 - Dark Blue */
-    padding: 20px;
-    color: white;
-    text-align: center;
-  }
-  
-  header h1 {
-    font-size: 36px;
-  }
-  
-  /* Footer Styling */
-  footer {
-    background-color: #003366;  /* Color Palette 1 - Dark Blue */
-    padding: 15px;
-    color: white;
-    text-align: center;
-  }
-  
-  /* Button Styling */
-  .btn {
-    background-color: #0077B3;  /* Color Palette 1 - Blue */
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-    margin-top: 10px;
-  }
-  
-  .btn:hover {
-    background-color: #005D8E;  /* Hover effect */
-  }
-  
-  /* Product Gallery Styling */
-  .gallery {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    padding: 20px;
-  }
-  
-  .product img {
-    width: 100%;
-    height: auto;
-  }
-  
-  .product button {
-    padding: 10px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    cursor: pointer;
-  }
-  
-  /* Contact Form Styling */
-  form {
-    background-color: white;
-    padding: 20px;
-    border-radius: 8px;
-  }
-  
-  label {
-    display: block;
-    margin-bottom: 8px;
-  }
-  
-  input, textarea {
-    width: 100%;
-    padding: 12px;
-    margin: 10px 0;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  button[type="submit"] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-  }
-  
-  /* Testimonials Section Styling */
-  .testimonials {
-    margin: 20px;
-  }
-  
-  .testimonial {
-    background-color: #ffffff;
-    padding: 15px;
-    border-radius: 5px;
-    margin-bottom: 10px;
-  }
-  
+  font-family: 'Arial', sans-serif;  /* Default body font */
+  background-color: #FFF7EE;  /* Color Palette Background */
+  color: #C1CFD6;  /* Font Color */
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styling */
+header {
+  background-color: #2E4057;  /* Color Palette - Dark Blue */
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+/* Typography - Title */
+h1 {
+  font-family: 'Georgia', serif; /* Title Large */
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+
+h2 {
+  font-family: 'Arial', sans-serif; /* Subtitle */
+  font-size: 15px;
+  font-weight: bold;
+  color: #EE583F; /* Color from the palette */
+}
+
+/* Button Styling */
+.btn {
+  background-color: #EE583F;  /* Color Palette - Bright Orange */
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #C7865E; /* Darker Orange from Palette */
+}
+
+/* Typography - Body Text */
+p {
+  font-family: 'Comic Sans MS', cursive, sans-serif;  /* Body large */
+  font-size: 20px;
+  line-height: 1.5;
+  color: #2E4057; /* Dark blue color for body */
+}
+
+strong {
+  font-family: 'Arial', sans-serif;  /* Body Strong */
+  font-size: 16px;
+  font-weight: bold;
+  color: #2E4057;
+}
+
+/* Captions */
+caption {
+  font-family: 'Calibri', sans-serif; /* Captions */
+  font-size: 11px;
+  color: #2E4057;
+}
+
+/* Footer Styling */
+footer {
+  background-color: #2E4057;  /* Color Palette - Dark Blue */
+  padding: 10px;
+  color: white;
+  text-align: center;
+}
+
+/* Gallery Page Styling */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.product img {
+  width: 100%;
+  height: auto;
+}
+
+/* Form and Input Styling */
+form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Testimonials Section Styling */
+.testimonials {
+  margin: 20px;
+}
+
+.testimonial {
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
