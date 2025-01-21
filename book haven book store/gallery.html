@@ -13,33 +13,78 @@
   </header>
 
   <section class="gallery">
+    <h2>Our Collection</h2>
     <div class="product">
       <img src="book1.png" alt="Book 1">
-      <button class="addToCartBtn">Add to Cart</button>
+      <p>Book Title 1</p>
+      <button class="addToCartBtn" data-product="Book Title 1">Add to Cart</button>
     </div>
     <div class="product">
       <img src="book2.png" alt="Book 2">
-      <button class="addToCartBtn">Add to Cart</button>
+      <p>Book Title 2</p>
+      <button class="addToCartBtn" data-product="Book Title 2">Add to Cart</button>
     </div>
     <div class="product">
       <img src="book3.png" alt="Book 3">
-      <button class="addToCartBtn">Add to Cart</button>
+      <p>Book Title 3</p>
+      <button class="addToCartBtn" data-product="Book Title 3">Add to Cart</button>
     </div>
   </section>
 
+  <button id="viewCartBtn">View Cart</button>
   <button id="clearCartBtn">Clear Cart</button>
-  <button id="processOrderBtn">Process Order</button>
+
+  <!-- Cart Display -->
+  <div id="cartModal" style="display: none;">
+    <h3>Shopping Cart</h3>
+    <ul id="cartItems">
+      <!-- Cart items will be displayed here -->
+    </ul>
+    <button id="closeCartBtn">Close</button>
+  </div>
 
   <script>
-    // Cart Array to hold items added to the cart
+    // Cart array to hold cart items
     let cart = [];
 
-    // Function to handle adding items to the cart
+    // Add items to cart
     document.querySelectorAll('.addToCartBtn').forEach(function(button) {
       button.addEventListener("click", function() {
-        cart.push("Item"); // Example: push the item to the cart
-        alert("Item added to the cart");
+        let product = this.getAttribute("data-product"); // Get product name from data attribute
+        cart.push(product); // Add product to cart
+        alert(`${product} added to the cart`);
       });
+    });
+
+    // View Cart Button
+    document.getElementById("viewCartBtn").addEventListener("click", function() {
+      let cartItemsContainer = document.getElementById("cartItems");
+      cartItemsContainer.innerHTML = ""; // Clear previous cart items display
+
+      // Display cart items
+      if (cart.length > 0) {
+        cart.forEach(function(item, index) {
+          let li = document.createElement("li");
+          li.textContent = item;
+          let removeBtn = document.createElement("button");
+          removeBtn.textContent = "Remove";
+          removeBtn.addEventListener("click", function() {
+            cart.splice(index, 1); // Remove item from the cart
+            updateCartDisplay();
+          });
+          li.appendChild(removeBtn);
+          cartItemsContainer.appendChild(li);
+        });
+        document.getElementById("cartModal").style.display = "block"; // Show cart modal
+      } else {
+        cartItemsContainer.innerHTML = "<li>No items in the cart</li>";
+        document.getElementById("cartModal").style.display = "block"; // Show cart modal
+      }
+    });
+
+    // Close Cart Modal
+    document.getElementById("closeCartBtn").addEventListener("click", function() {
+      document.getElementById("cartModal").style.display = "none"; // Hide cart modal
     });
 
     // Clear Cart Button
@@ -52,14 +97,25 @@
       }
     });
 
-    // Process Order Button
-    document.getElementById("processOrderBtn").addEventListener("click", function() {
-      if (cart.length > 0) {
-        alert("Thank you for your order");
-      } else {
-        alert("Cart is empty");
+    // Update Cart Display
+    function updateCartDisplay() {
+      document.getElementById("cartItems").innerHTML = ""; // Clear existing display
+      cart.forEach(function(item, index) {
+        let li = document.createElement("li");
+        li.textContent = item;
+        let removeBtn = document.createElement("button");
+        removeBtn.textContent = "Remove";
+        removeBtn.addEventListener("click", function() {
+          cart.splice(index, 1); // Remove item from cart
+          updateCartDisplay();
+        });
+        li.appendChild(removeBtn);
+        document.getElementById("cartItems").appendChild(li);
+      });
+      if (cart.length === 0) {
+        document.getElementById("cartItems").innerHTML = "<li>No items in the cart</li>";
       }
-    });
+    }
   </script>
 </body>
 </html>
