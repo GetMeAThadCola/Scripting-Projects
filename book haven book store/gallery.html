@@ -15,26 +15,28 @@
   <section class="gallery">
     <h2>Our Collection</h2>
     <div class="product">
-      <img src="book1.png" alt="Book 1">
+      <img src="book1.jpg" alt="Book 1">
       <p>Book Title 1</p>
       <button class="addToCartBtn" data-product="Book Title 1">Add to Cart</button>
     </div>
     <div class="product">
-      <img src="book2.png" alt="Book 2">
+      <img src="book2.jpg" alt="Book 2">
       <p>Book Title 2</p>
       <button class="addToCartBtn" data-product="Book Title 2">Add to Cart</button>
     </div>
     <div class="product">
-      <img src="book3.png" alt="Book 3">
+      <img src="book3.jpg" alt="Book 3">
       <p>Book Title 3</p>
       <button class="addToCartBtn" data-product="Book Title 3">Add to Cart</button>
     </div>
   </section>
 
+  <!-- Buttons -->
   <button id="viewCartBtn">View Cart</button>
   <button id="clearCartBtn">Clear Cart</button>
+  <button id="processOrderBtn">Process Order</button>
 
-  <!-- Cart Display -->
+  <!-- Cart Modal -->
   <div id="cartModal" style="display: none;">
     <h3>Shopping Cart</h3>
     <ul id="cartItems">
@@ -94,6 +96,15 @@
         alert("Cart cleared");
       } else {
         alert("No items to clear");
+      }
+    });
+
+    // Process Order Button
+    document.getElementById("processOrderBtn").addEventListener("click", function() {
+      if (cart.length > 0) {
+        alert("Thank you for your order");
+      } else {
+        alert("Cart is empty");
       }
     });
 
