@@ -47,7 +47,7 @@
       event.preventDefault(); // Prevent form submission
 
       const emailInput = document.getElementById("email").value;
-      const emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/; // Valid email pattern without special characters
+      const emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
 
       // Check if the email input is valid
       if (emailPattern.test(emailInput)) {

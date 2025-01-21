@@ -25,61 +25,36 @@
       <!-- Name Field -->
       <label for="name">Name:</label>
       <input type="text" id="name" name="name" placeholder="Enter your name" required>
-      <span id="nameError" style="color: red; display: none;">Please enter a valid name.</span>
       
       <!-- Email Field -->
       <label for="email">Email:</label>
       <input type="email" id="email" name="email" placeholder="Enter your email" required>
-      <span id="emailError" style="color: red; display: none;">Please enter a valid email address.</span>
       
       <!-- Message Field -->
       <label for="message">Message:</label>
       <textarea id="message" name="message" rows="4" placeholder="Enter your message" required></textarea>
-      <span id="messageError" style="color: red; display: none;">Please enter your message.</span>
       
       <button type="submit">Submit</button>
     </form>
   </section>
 
   <script>
-    // JavaScript for input validation
     document.getElementById("contactForm").addEventListener("submit", function(event) {
-      event.preventDefault(); // Prevent form submission
+      event.preventDefault();
 
-      // Reset error messages
-      document.getElementById("nameError").style.display = "none";
-      document.getElementById("emailError").style.display = "none";
-      document.getElementById("messageError").style.display = "none";
-
-      // Get form data
       const name = document.getElementById("name").value;
       const email = document.getElementById("email").value;
       const message = document.getElementById("message").value;
 
-      let valid = true;
+      if (name && email && message) {
+        // Save form data to localStorage
+        localStorage.setItem('customerName', name);
+        localStorage.setItem('customerEmail', email);
+        localStorage.setItem('customerMessage', message);
 
-      // Name Validation (No special characters, no empty)
-      if (!/^[a-zA-Z\s]+$/.test(name)) {
-        document.getElementById("nameError").style.display = "block";
-        valid = false;
-      }
-
-      // Email Validation (Simple regex for valid email format)
-      const emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
-      if (!emailPattern.test(email)) {
-        document.getElementById("emailError").style.display = "block";
-        valid = false;
-      }
-
-      // Message Validation (No empty messages)
-      if (message.trim() === "") {
-        document.getElementById("messageError").style.display = "block";
-        valid = false;
-      }
-
-      // If all fields are valid, display success message
-      if (valid) {
         alert("Thank you for your message! We will get back to you shortly.");
+      } else {
+        alert("Please fill in all fields before submitting.");
       }
     });
   </script>
