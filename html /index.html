@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Cloud Project Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Google Cloud Project Dashboard</h1>
+        <nav>
+            <ul>
+                <li><a href="#instance-info">Instance Info</a></li>
+                <li><a href="#project-info">Project Details</a></li>
+                <li><a href="#ssh-connection">SSH Connection</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="instance-info">
+        <h2>VM Instance Information</h2>
+        <p>Here is the basic info about your Google Cloud VM instance:</p>
+        <table>
+            <tr>
+                <th>Instance Name</th>
+                <td>my-instance</td>
+            </tr>
+            <tr>
+                <th>Zone</th>
+                <td>us-central1-a</td>
+            </tr>
+            <tr>
+                <th>Machine Type</th>
+                <td>n1-standard-1</td>
+            </tr>
+            <tr>
+                <th>OS Image</th>
+                <td>Debian 11</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="project-info">
+        <h2>Project Information</h2>
+        <p>Details about your Google Cloud project:</p>
+        <ul>
+            <li>Project ID: your-project-id</li>
+            <li>Region: us-central1</li>
+            <li>Project Owner: Your Name</li>
+            <li>Project Billing: Enabled</li>
+        </ul>
+    </section>
+
+    <section id="ssh-connection">
+        <h2>Connect to Your Instance via SSH</h2>
+        <p>Use the following command to SSH into your instance:</p>
+        <pre><code>gcloud compute ssh my-instance --zone us-central1-a</code></pre>
+        <p>Make sure you have the necessary permissions and firewall rules set up to allow SSH connections.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Google Cloud Project</p>
+    </footer>
+</body>
+</html>
