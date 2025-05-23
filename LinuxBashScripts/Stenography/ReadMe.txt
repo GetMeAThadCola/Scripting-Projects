@@ -1,3 +1,6 @@
+#  Image Checker
+
+
 This Bash script checks for the presence of hidden data within an image file and, if found, extracts it using the 'steghide' tool. 
 It does this by first ensuring that a valid image file is provided as an argument and that the file exists. 
 Then, it calls the has_something_to_extract function, which, in this example, checks if the image file's size exceeds 100 bytes. 
