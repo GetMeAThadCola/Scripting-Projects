@@ -1,1 +1,0 @@
-This is a python script that generates a QR Code for a given website and then makes it so users may be able to save teh QRCode to a location they specified.
