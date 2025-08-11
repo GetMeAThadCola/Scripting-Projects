@@ -1,0 +1,25 @@
+administrative:
+  - id: AS-1
+    text: Privacy & Security Officer assigned
+    weight: 3
+    remediation: Designate officers and document responsibilities.
+  - id: AS-2
+    text: Annual risk analysis performed and documented
+    weight: 5
+    remediation: Perform/document enterprise risk analysis.
+
+physical:
+  - id: PS-1
+    text: Facility entry controls defined (badges/visitors/logs)
+    weight: 2
+    remediation: Implement visitor controls and logs.
+
+technical:
+  - id: TS-7
+    text: Access control (MFA for admins; least privilege)
+    weight: 5
+    remediation: Enforce MFA; quarterly access reviews.
+  - id: TS-8
+    text: Transmission security (TLS enforced)
+    weight: 4
+    remediation: TLS 1.2+ only; disable weak ciphers.
